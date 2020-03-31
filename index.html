@@ -31,6 +31,61 @@
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+
+    .header {
+      text-align: center;
+      padding: 32px;
+    }
+
+    .rows {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+      }
+    }
+    </style>
 </head>
 <body id="top">
 <!--[if lt IE 8]>
@@ -44,6 +99,9 @@
                 <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
                 <div class="header-nav">
                     <nav>
+                      <ul class="primary-nav">
+                          <li><a href="#eng-pics">Pictures</a></li>
+                      </ul>
                         <ul class="member-actions">
                             <li><a href="#map" class="login">Venue</a></li>
                         </ul>
@@ -68,10 +126,165 @@
 </section>
 
 
-<section id="coming-soon" class="section-padding">
-    <div class="text-center">
-        <h3>More information coming soon.</h3>
+<section id="eng-pics" class="section-padding">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header" style="color:white">PICTURES OF US</h3>
+            </div>
+        </div>
+        <div class="rows">
+            <div class="col-lg-4 column">
+                <a class="fancybox" rel="group" href="img/eng_pics/10207027012690823.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/10207027012690823.jpeg" alt=""/>
+                    </div>
+                </a>
+                <a class="fancybox" rel="group" href="img/eng_pics/IMG_6360.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/IMG_6360.jpeg" alt=""/>
+                    </div>
+                </a>
+                <a class="fancybox" rel="group" href="img/eng_pics/IMG_0319.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/IMG_0319.jpeg" alt=""/>
+                    </div>
+                </a>
+                <a class="fancybox" rel="group" href="img/eng_pics/IMG_2148.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/IMG_2148.jpeg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="column col-md-4">
+                <a class="fancybox" rel="group" href="img/eng_pics/10210297422849033.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/10210297422849033.jpg" alt=""/>
+                    </div>
+                </a>
+                <a class="fancybox" rel="group" href="img/eng_pics/IMG_5896.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/IMG_5896.jpeg" alt=""/>
+                    </div>
+                </a>
+                <a class="fancybox" rel="group" href="img/eng_pics/IMG_3039.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/IMG_3039.jpeg" alt=""/>
+                    </div>
+                </a>
+                <a class="fancybox" rel="group" href="img/eng_pics/IMG_5141.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/IMG_5141.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="column col-md-4">
+                <a class="fancybox" rel="group" href="img/eng_pics/IMG_4296.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/IMG_4296.jpeg" alt=""/>
+                    </div>
+                </a>
+                <a class="fancybox" rel="group" href="img/eng_pics/IMG_8769.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/IMG_8769.jpeg" alt=""/>
+                    </div>
+                </a>
+                <a class="fancybox" rel="group" href="img/eng_pics/IMG_8535.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/IMG_8535.jpeg" alt=""/>
+                    </div>
+                </a>
+                <a class="fancybox" rel="group" href="img/eng_pics/IMG_8293.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/IMG_8293.jpeg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="column col-md-4">
+              <a class="fancybox" rel="group" href="img/eng_pics/IMG_1760.jpeg">
+                  <div class="img-wrap">
+                      <div class="overlay">
+                          <i class="fa "></i>
+                      </div>
+                      <img src="img/eng_pics/IMG_1760.jpeg" alt=""/>
+                  </div>
+              </a>
+                <a class="fancybox" rel="group" href="img/eng_pics/IMG_8243.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/IMG_8243.jpeg" alt=""/>
+                    </div>
+                </a>
+                <a class="fancybox" rel="group" href="img/eng_pics/10210138662240117.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/10210138662240117.jpg" alt=""/>
+                    </div>
+                </a>
+                <a class="fancybox" rel="group" href="img/eng_pics/IMG_7355.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa "></i>
+                        </div>
+                        <img src="img/eng_pics/IMG_7355.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
+    <div class="container">
+        <div class="row hidden-lg hidden-md hidden-xs">
+            <div class="col-xs-12 section-border section-padding"></div>
+        </div>
+    </div>
+    <!--<div class="row">
+        <div class="col-md-12">
+            <div class="diamond floating-logo">
+                <img src="img/sketch-logo.png" alt="Sketch Logo">
+                <div class="ring"></div>
+            </div>
+        </div>
+    </div>-->
 </section>
 
 
@@ -85,5 +298,6 @@
 <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
 <script src="js/vendor/ouical.js"></script>
 <script src="js/scripts.min.js"></script>
+
 </body>
 </html>

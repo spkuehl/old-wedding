@@ -357,10 +357,17 @@
 
 @media screen and (max-width: 320px) {
     .hero .hero-content {
-        padding-top: 130%;
+        padding-top: 70%;
     }
 
     .rsvp {
         padding-top: 20px;
     }
+}
+
+body {
+  background: url("../img/hero-min.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
