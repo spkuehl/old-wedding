@@ -288,6 +288,48 @@
 </section>
 
 
+<section id="map" class="section-padding">
+    <div class="text-center">
+        <h3>How do I get there?</h3>
+        <p>It's way easier than you think!</p>
+    </div>
+    <div id="map-canvas"></div>
+    <div id="map-content-wrapper" class="container pointer-events-none">
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
+                <div class="text-center">
+                    <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
+                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
+                    </div>
+                </div>
+                <div id="map-content" class="pointer-events-auto">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>Marriott</h5>
+                            <p>50 N Martingale Rd, Schaumburg, IL 60173</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Phone Number</h5>
+                            <p><i class="fa fa-mobile"></i> <a href="tel://+919412345678">(847) 240-0100</a><br>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+<!--                        <div class="col-md-6" style="padding: 5px;">-->
+<!--                            <a class="btn btn-fill btn-small"-->
+<!--                               href="https://m.uber.com/ul/?action=setPickup&client_id=Yh7Dl6SjB56RY2JuuZF8ttVa6ryFV78W&pickup=my_location&dropoff[formatted_address]=Fortune%20Park%20Panchwati%20-%20Hotels%20in%20Kolkata%2C%20Howrah%2C%20West%20Bengal%2C%20India&dropoff[latitude]=22.593276&dropoff[longitude]=88.270277"><i-->
+<!--                                    class="fa fa-taxi"></i>&nbsp;&nbsp;Book Uber</a>-->
+<!--                        </div>-->
+                        <div class="col-md-6" style="padding: 5px;">
+                            <a class="btn btn-accent btn-small" id="btn-show-map" href=//www.google.com/maps/place/Chicago+Marriott+Schaumburg/@42.0298791,-88.034923,17z/data=!3m1!4b1!4m8!3m7!1s0x880fafb7b8ec97b3:0xedd023964d77296!5m2!4m1!1i2!8m2!3d42.0298751!4d-88.0327343"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
+                                map</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
